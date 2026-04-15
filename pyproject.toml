@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "realtime-quote-monitor"
+version = "0.1.0"
+description = "Dependency-light auto-watch engine for stock quotes with pluggable alert rules."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Chunyang Gao" }]
+keywords = ["quant", "stock", "monitoring", "alerts", "trading", "auto-watch"]
+
+[tool.setuptools.packages.find]
+include = ["monitor*"]

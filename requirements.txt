@@ -1,0 +1,7 @@
+# Core runtime: standard library only — no third-party dependencies required.
+#
+# To go live you may add your own feed adapter (e.g. `requests`, `websockets`);
+# the engine itself stays dependency-free.
+#
+# Dev / tests:
+pytest>=7.0
